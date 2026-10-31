@@ -175,10 +175,10 @@ function App() {
           <div className="brand-mark">
             <Icon name="check" />
           </div>
-          <p className="eyebrow">KUNINGIZNI REJALASHTIRING</p>
+          <p className="eyebrow">KUNINGNI REJA BILAN ISHLA</p>
           <h1 id="page-title">Vazifalar</h1>
           <p className="subtitle">
-            Kichik qadamlar katta natijalarga olib keladi.
+            OZDAN ISHLIVUR SHU BILAN YAXSHI BOB KETADI
           </p>
         </header>
 
@@ -225,11 +225,11 @@ function App() {
           <div className="count-badges">
             <span className="count-badge active-count">
               <span className="status-dot" />
-              Bajarilmagan <strong>{activeCount}</strong>
+              Bajarilmadi <strong>{activeCount}</strong>
             </span>
             <span className="count-badge completed-count">
               <span className="status-dot" />
-              Bajarilgan <strong>{completedCount}</strong>
+              bajarildi <strong>{completedCount}</strong>
             </span>
           </div>
         </section>
@@ -334,17 +334,11 @@ function App() {
         )}
 
         <footer className="card-footer">
-          <span>
-            {todos.length === 0
-              ? "Har bir katta ish birinchi qadamdan boshlanadi."
-              : `${activeCount} ta vazifa sizni kutmoqda`}
-          </span>
-          <span className="footer-sparkle">
-            <Icon name="sparkles" />
-          </span>
+         
+         
         </footer>
       </section>
-      <p className="page-note">Tartibli kun — xotirjam fikr ✦</p>
+     
     </main>
   );
 }
